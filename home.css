@@ -1,0 +1,27 @@
+body{
+    background:#FF6347;
+}
+.margin{
+    border-bottom:1px #fff solid;
+
+}
+.content1{
+    margin:90px auto;
+    width: 500px;
+    height: 350px;
+    background: #fff;
+}
+.content2{
+    height: 70px;
+    text-align: center;
+    padding: 16px;
+    background: #FF6347;
+    border: 1px #fff solid;
+    }
+    button {
+        background-color:#FF6347;
+        color: white;
+        border: 1px solid #FF6347;
+        padding: 8px 25px;
+        margin: 12px 200px;
+      }  
