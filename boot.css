@@ -16,16 +16,16 @@ body{
     max-height: 550px;
 }
 @media only screen and (min-width: 241px) and (max-width: 500px)
-{
-    .letters{
-        margin-bottom: -120px;
-        font-size: 24px;
-    }
-    
-}
-.letters{
-    padding-bottom: 150px;
-}
+{ .letters{margin-bottom: -140px;} }
+@media only screen and (min-width: 241px) and (max-width: 500px)
+{ .display-3{font-size: 34px;} }
+@media only screen and (min-width: 241px) and (max-width: 500px)
+{ .lead{font-size: 20px;} }
+@media only screen and (min-width: 241px) and (max-width: 500px)
+{ .btn-danger{width: 60px; height: 25px; font-size: 6px; } }
+
+.letters
+{  padding-bottom: 150px; }
 
 /* cards */
 .cards{
@@ -33,16 +33,12 @@ body{
     border: 10px solid white;
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 350px;
-        
+    height: 350px;   
 }
-.cards:hover{
-    background-color: tomato;
-    transition: 5s;
-}
-.cards:hover .crashes {
-    color: white;
-}
+.cards:hover{ background-color: tomato;  transition: 5s; }
+
+.cards:hover .crashes { color: white; }
+
 .crashes{
     color: #ff6347;
     font-size: 80px;
