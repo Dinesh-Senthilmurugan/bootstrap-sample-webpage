@@ -1,12 +1,14 @@
 body{
-    background:#FF6347;
+    background:#fff;
     min-height: 100%;
 }
-/* navbar */
-.margin{
-    background-color: #ff6347;
-    border-bottom:1px #fff solid;
+/* topbar */
+.topbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
 }
+/* navbar */
 
 .list{
     margin-left: auto;
